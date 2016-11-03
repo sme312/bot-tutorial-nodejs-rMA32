@@ -8,8 +8,8 @@ botTrigger = /(.|)*Show me the survey/;
 
 if(request.text && botTrigger.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://www.surveymonkey.com/r/VSFH55Z");
-//postMessage("No survey :^(");
+//postMessage("https://www.surveymonkey.com/r/VSFH55Z");
+postMessage("No survey :^(");
 this.res.end();
 }
 
