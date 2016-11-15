@@ -9,9 +9,7 @@ botTrigger = /(.|)*Show me the survey/;
 if(request.text && botTrigger.test(request.text)) {
 this.res.writeHead(200);
 
-  postMessage("You have until 5pm");
-  postMessage("https://www.surveymonkey.com/r/ZFGTZCC");
-postMessage("You have until 9am on Wednesday");
+postMessage("https://www.surveymonkey.com/r/ZFGTZCC");
 postMessage("https://www.surveymonkey.com/r/B6PB5TR");
 
 //postMessage("No survey :^(");
