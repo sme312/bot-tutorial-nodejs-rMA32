@@ -9,10 +9,10 @@ botTrigger = /(.|)*Show me the survey/;
 if(request.text && botTrigger.test(request.text)) {
 this.res.writeHead(200);
 
-postMessage("https://www.surveymonkey.com/r/M73SH89");
-postMessage("https://www.surveymonkey.com/r/M93GWW3");
+//postMessage("https://www.surveymonkey.com/r/M73SH89");
+//postMessage("https://www.surveymonkey.com/r/M93GWW3");
 
-//postMessage("No survey :^(");
+postMessage("No survey :^(");
 this.res.end();
 }
 
